@@ -1,7 +1,7 @@
 /* global __react_refresh_library__ */
 
 const safeThis = require('core-js-pure/features/global-this.js');
-const RefreshRuntime = require('react-refresh/runtime.js');
+const RefreshRuntime = require('react-refresh');
 
 if (process.env.NODE_ENV !== 'production') {
   if (typeof safeThis !== 'undefined') {
